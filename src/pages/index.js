@@ -26,7 +26,7 @@ const Separator = styled.hr`
 const Home = ({ className, location }) => {
   // validate siteConfig settings
   if (siteConfig.googleAnalyticsId === 'UA-000000000-1') {
-    console.error('WARNING: Please set a proper googleAnalyticsId. See https://analytics.google.com for details.');
+    //console.error('WARNING: Please set a proper googleAnalyticsId. See https://analytics.google.com for details.');
   }
 
   const title = siteConfig.siteTitle
